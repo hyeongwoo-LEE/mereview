@@ -6,6 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
+import org.springframework.transaction.annotation.Transactional;
 import org.zerock.mreview.entity.Member;
 import org.zerock.mreview.entity.Movie;
 import org.zerock.mreview.entity.Review;
@@ -14,6 +15,7 @@ import org.zerock.mreview.repository.ReviewRepository;
 import java.util.List;
 import java.util.stream.IntStream;
 
+@Transactional
 @SpringBootTest
 public class ReviewRepositoryTests {
 

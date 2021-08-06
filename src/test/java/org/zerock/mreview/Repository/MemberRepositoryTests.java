@@ -16,6 +16,7 @@ import org.zerock.mreview.repository.ReviewRepository;
 import java.util.List;
 import java.util.stream.IntStream;
 
+@Transactional
 @SpringBootTest
 public class MemberRepositoryTests {
 

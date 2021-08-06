@@ -18,6 +18,7 @@ import java.util.List;
 import java.util.UUID;
 import java.util.stream.IntStream;
 
+@Transactional
 @SpringBootTest
 public class MovieRepositoryTests {
 
